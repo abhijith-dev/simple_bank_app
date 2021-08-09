@@ -1,6 +1,6 @@
 # Simple Bank App
 
-![simple bank app](https://img.etimg.com/thumb/msid-77583044,width-1200,height-900,imgsize-125244,resizemode-8,quality-100/markets/stocks/news/foreign-banks-to-seek-more-time-some-concessions.jpg)
+![simple bank app](https://media-eng.dhakatribune.com/uploads/2019/06/web-bank-bigstock-edited-1560438358788.jpg)
 
 ## API Services for User
 
