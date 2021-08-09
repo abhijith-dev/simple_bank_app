@@ -18,20 +18,6 @@
 }
 ```
 ***
-***
-### Create User
-
-> url :http://localhost:3000/users/crate
-
-#### request body
-
-```
-{
-    name:'',
-    password:''
-}
-```
-***
 
 ### Login User
 
@@ -52,18 +38,20 @@
 > url :http://localhost:3000/users/fetch
 
 #### request body
+
 > access-token required
 
 ***
 
 ***
-### Create User
+### Check user balance
 
 > url :http://localhost:3000/users/balance
 
 #### request body
 
 >need access-token
+
 ***
 
 ## API Service for Payment
@@ -86,6 +74,7 @@
 > url :http://localhost:3000/payment/add
 
 #### request body
+
 >access-token required
 ```
 {
@@ -99,11 +88,13 @@
 ### sender transaction 
 
 > url :http://localhost:3000/transactions/?type=1
->access-token required```
+> 
+>access-token required
 ***
 ### reciever transaction 
 
 > url :http://localhost:3000/transactions/?type=2
+> 
 >access-token required
 
 ```
