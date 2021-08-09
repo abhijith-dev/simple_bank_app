@@ -1,6 +1,6 @@
 # Simple Bank App
 
-![Waste Management System](https://www.tutorialspoint.com/environmental_studies/images/solid_waste_management.jpg)
+![simple bank app](https://img.etimg.com/thumb/msid-77583044,width-1200,height-900,imgsize-125244,resizemode-8,quality-100/markets/stocks/news/foreign-banks-to-seek-more-time-some-concessions.jpg)
 
 ## API Services for User
 
@@ -98,4 +98,3 @@
 >access-token required
 
 ```
-***
