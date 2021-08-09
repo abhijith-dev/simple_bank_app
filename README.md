@@ -7,7 +7,7 @@
 ***
 ### Create User
 
-> url :http://localhost:3000/users/crate
+> url :http://localhost:3000/users/crate [POST]
 
 #### request body
 
@@ -21,7 +21,7 @@
 
 ### Login User
 
-> url :http://localhost:3000/users/auth
+> url :http://localhost:3000/users/auth [POST]
 
 #### request body
 
@@ -35,7 +35,7 @@
 
 ### fetch User
 
-> url :http://localhost:3000/users/fetch
+> url :http://localhost:3000/users/fetch [GET]
 
 #### request body
 
@@ -46,7 +46,7 @@
 ***
 ### Check user balance
 
-> url :http://localhost:3000/users/balance
+> url :http://localhost:3000/users/balance [POST]
 
 #### request body
 
@@ -58,7 +58,7 @@
 ***
 ### make payment
 
-> url :http://localhost:3000/payment/make
+> url :http://localhost:3000/payment/make [POST]
 
 #### request body
 >access-token required
@@ -71,7 +71,7 @@
 
 ### Add money to Account
 
-> url :http://localhost:3000/payment/add
+> url :http://localhost:3000/payment/add [POST]
 
 #### request body
 
@@ -87,13 +87,13 @@
 ***
 ### sender transaction 
 
-> url :http://localhost:3000/transactions/?type=1
+> url :http://localhost:3000/transactions/?type=1 [GET]
 > 
 >access-token required
 ***
 ### reciever transaction 
 
-> url :http://localhost:3000/transactions/?type=2
+> url :http://localhost:3000/transactions/?type=2 [GET]
 > 
 >access-token required
 
